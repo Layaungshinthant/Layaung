@@ -1,0 +1,20 @@
+{
+  "name": "elsa-digital-hq",
+  "version": "2.0.0",
+  "description": "Elsa's complete Telegram Bot + Portfolio API server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": { "node": ">=18" }
+}
